@@ -1,0 +1,53 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/temitopedaniel/.pub-cache/hosted/pub.dev/ably_flutter-1.2.18/android/src/main/AndroidManifest.xml:1:1-20:12
+INJECTED from /Users/temitopedaniel/.pub-cache/hosted/pub.dev/ably_flutter-1.2.18/android/src/main/AndroidManifest.xml:1:1-20:12
+INJECTED from /Users/temitopedaniel/.pub-cache/hosted/pub.dev/ably_flutter-1.2.18/android/src/main/AndroidManifest.xml:1:1-20:12
+	package
+		ADDED from /Users/temitopedaniel/.pub-cache/hosted/pub.dev/ably_flutter-1.2.18/android/src/main/AndroidManifest.xml:2:5-37
+		INJECTED from /Users/temitopedaniel/.pub-cache/hosted/pub.dev/ably_flutter-1.2.18/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/temitopedaniel/.pub-cache/hosted/pub.dev/ably_flutter-1.2.18/android/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/temitopedaniel/.pub-cache/hosted/pub.dev/ably_flutter-1.2.18/android/src/main/AndroidManifest.xml:1:11-69
+application
+ADDED from /Users/temitopedaniel/.pub-cache/hosted/pub.dev/ably_flutter-1.2.18/android/src/main/AndroidManifest.xml:3:5-19:19
+service#io.ably.flutter.plugin.push.PushMessagingService
+ADDED from /Users/temitopedaniel/.pub-cache/hosted/pub.dev/ably_flutter-1.2.18/android/src/main/AndroidManifest.xml:4:9-10:19
+	android:exported
+		ADDED from /Users/temitopedaniel/.pub-cache/hosted/pub.dev/ably_flutter-1.2.18/android/src/main/AndroidManifest.xml:6:13-37
+	android:name
+		ADDED from /Users/temitopedaniel/.pub-cache/hosted/pub.dev/ably_flutter-1.2.18/android/src/main/AndroidManifest.xml:5:13-76
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/temitopedaniel/.pub-cache/hosted/pub.dev/ably_flutter-1.2.18/android/src/main/AndroidManifest.xml:7:13-9:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/temitopedaniel/.pub-cache/hosted/pub.dev/ably_flutter-1.2.18/android/src/main/AndroidManifest.xml:8:17-77
+	android:name
+		ADDED from /Users/temitopedaniel/.pub-cache/hosted/pub.dev/ably_flutter-1.2.18/android/src/main/AndroidManifest.xml:8:25-75
+receiver#io.ably.flutter.plugin.push.FirebaseMessagingReceiver
+ADDED from /Users/temitopedaniel/.pub-cache/hosted/pub.dev/ably_flutter-1.2.18/android/src/main/AndroidManifest.xml:11:9-18:20
+	android:exported
+		ADDED from /Users/temitopedaniel/.pub-cache/hosted/pub.dev/ably_flutter-1.2.18/android/src/main/AndroidManifest.xml:13:13-36
+	android:permission
+		ADDED from /Users/temitopedaniel/.pub-cache/hosted/pub.dev/ably_flutter-1.2.18/android/src/main/AndroidManifest.xml:14:13-73
+	android:name
+		ADDED from /Users/temitopedaniel/.pub-cache/hosted/pub.dev/ably_flutter-1.2.18/android/src/main/AndroidManifest.xml:12:13-81
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from /Users/temitopedaniel/.pub-cache/hosted/pub.dev/ably_flutter-1.2.18/android/src/main/AndroidManifest.xml:15:13-17:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from /Users/temitopedaniel/.pub-cache/hosted/pub.dev/ably_flutter-1.2.18/android/src/main/AndroidManifest.xml:16:17-81
+	android:name
+		ADDED from /Users/temitopedaniel/.pub-cache/hosted/pub.dev/ably_flutter-1.2.18/android/src/main/AndroidManifest.xml:16:25-78
+uses-sdk
+INJECTED from /Users/temitopedaniel/.pub-cache/hosted/pub.dev/ably_flutter-1.2.18/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/temitopedaniel/.pub-cache/hosted/pub.dev/ably_flutter-1.2.18/android/src/main/AndroidManifest.xml
+INJECTED from /Users/temitopedaniel/.pub-cache/hosted/pub.dev/ably_flutter-1.2.18/android/src/main/AndroidManifest.xml
+INJECTED from /Users/temitopedaniel/.pub-cache/hosted/pub.dev/ably_flutter-1.2.18/android/src/main/AndroidManifest.xml
+INJECTED from /Users/temitopedaniel/.pub-cache/hosted/pub.dev/ably_flutter-1.2.18/android/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/temitopedaniel/.pub-cache/hosted/pub.dev/ably_flutter-1.2.18/android/src/main/AndroidManifest.xml
+		ADDED from /Users/temitopedaniel/.pub-cache/hosted/pub.dev/ably_flutter-1.2.18/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/temitopedaniel/.pub-cache/hosted/pub.dev/ably_flutter-1.2.18/android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/temitopedaniel/.pub-cache/hosted/pub.dev/ably_flutter-1.2.18/android/src/main/AndroidManifest.xml
+		ADDED from /Users/temitopedaniel/.pub-cache/hosted/pub.dev/ably_flutter-1.2.18/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/temitopedaniel/.pub-cache/hosted/pub.dev/ably_flutter-1.2.18/android/src/main/AndroidManifest.xml

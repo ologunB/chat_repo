@@ -1,0 +1,44 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="io.ably.flutter.plugin" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="19"
+6-->/Users/temitopedaniel/.pub-cache/hosted/pub.dev/ably_flutter-1.2.18/android/src/main/AndroidManifest.xml
+7        android:targetSdkVersion="19" />
+7-->/Users/temitopedaniel/.pub-cache/hosted/pub.dev/ably_flutter-1.2.18/android/src/main/AndroidManifest.xml
+8
+9    <application>
+9-->/Users/temitopedaniel/.pub-cache/hosted/pub.dev/ably_flutter-1.2.18/android/src/main/AndroidManifest.xml:3:5-19:19
+10        <service
+10-->/Users/temitopedaniel/.pub-cache/hosted/pub.dev/ably_flutter-1.2.18/android/src/main/AndroidManifest.xml:4:9-10:19
+11            android:name="io.ably.flutter.plugin.push.PushMessagingService"
+11-->/Users/temitopedaniel/.pub-cache/hosted/pub.dev/ably_flutter-1.2.18/android/src/main/AndroidManifest.xml:5:13-76
+12            android:exported="false" >
+12-->/Users/temitopedaniel/.pub-cache/hosted/pub.dev/ably_flutter-1.2.18/android/src/main/AndroidManifest.xml:6:13-37
+13            <intent-filter>
+13-->/Users/temitopedaniel/.pub-cache/hosted/pub.dev/ably_flutter-1.2.18/android/src/main/AndroidManifest.xml:7:13-9:29
+14                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+14-->/Users/temitopedaniel/.pub-cache/hosted/pub.dev/ably_flutter-1.2.18/android/src/main/AndroidManifest.xml:8:17-77
+14-->/Users/temitopedaniel/.pub-cache/hosted/pub.dev/ably_flutter-1.2.18/android/src/main/AndroidManifest.xml:8:25-75
+15            </intent-filter>
+16        </service>
+17
+18        <receiver
+18-->/Users/temitopedaniel/.pub-cache/hosted/pub.dev/ably_flutter-1.2.18/android/src/main/AndroidManifest.xml:11:9-18:20
+19            android:name="io.ably.flutter.plugin.push.FirebaseMessagingReceiver"
+19-->/Users/temitopedaniel/.pub-cache/hosted/pub.dev/ably_flutter-1.2.18/android/src/main/AndroidManifest.xml:12:13-81
+20            android:exported="true"
+20-->/Users/temitopedaniel/.pub-cache/hosted/pub.dev/ably_flutter-1.2.18/android/src/main/AndroidManifest.xml:13:13-36
+21            android:permission="com.google.android.c2dm.permission.SEND" >
+21-->/Users/temitopedaniel/.pub-cache/hosted/pub.dev/ably_flutter-1.2.18/android/src/main/AndroidManifest.xml:14:13-73
+22            <intent-filter>
+22-->/Users/temitopedaniel/.pub-cache/hosted/pub.dev/ably_flutter-1.2.18/android/src/main/AndroidManifest.xml:15:13-17:29
+23                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+23-->/Users/temitopedaniel/.pub-cache/hosted/pub.dev/ably_flutter-1.2.18/android/src/main/AndroidManifest.xml:16:17-81
+23-->/Users/temitopedaniel/.pub-cache/hosted/pub.dev/ably_flutter-1.2.18/android/src/main/AndroidManifest.xml:16:25-78
+24            </intent-filter>
+25        </receiver>
+26    </application>
+27
+28</manifest>
